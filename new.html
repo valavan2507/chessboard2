@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b874790d94.js" crossorigin="anonymous"></script>
+<style>
+    table,tr,td{
+        border:3px solid black;
+        border-collapse: collapse;
+
+    }
+    table {
+        margin-top: 25px ;
+        margin-left: 420px;
+    }
+    td,th{
+        width:70px;
+        height:70px;
+        transition: all .5s;
+        cursor: pointer;
+        text-align: center;
+        font-size: 40px;
+
+    }
+    h1{
+        text-align:center;
+        transition: all .5s;
+        cursor: pointer;
+        color:azure;
+    }
+    h1:hover{
+        transform:scale(1.4);
+    }
+    .h{
+        background-image: url(gold.jpg) ;
+    }
+    .w{
+        background-image: url(white.jpg);
+    }
+    td:hover{
+        transform: scale(1.4);
+
+    }
+    body {
+        background-image: url(chess3.jpg);
+        background-size: cover;
+    }
+    .corner{
+        height: 20px;
+        width: 20px;
+        background-color: rgb(0, 0, 0);
+    }
+    .edges{
+            width: 30px;
+            height: 15px;
+            background-color: rgb(0, 0, 0);
+            color:aliceblue
+    }
+
+</style>
+</head>
+<body>
+    <h1><b>CHESS</b></h1>
+    
+    <table>
+        <tr>
+            <td class="corner"></td>
+            <td class="edges">a</td>
+            <td class="edges">b</td>
+            <td class="edges">c</td>
+            <td class="edges">d</td>
+            <td class="edges">e</td>
+            <td class="edges">f</td>
+            <td class="edges">g</td>
+            <td class="edges">h</td>
+            <td class="corner"></td>
+            
+            
+        </tr>
+        <tr>
+            <td class="edges">1</td>
+            <td class="h"><i class="fa-regular fa-chess-rook"></i></td>
+            <td class="w"><i class="fa-regular fa-chess-knight"></i></td>
+            <td class="h"><i class="fa-regular fa-chess-bishop"></i></td>
+            <td class="w"><i class="fa-regular fa-chess-king"></i></td>
+            <td class="h"><i class="fa-regular fa-chess-queen"></i></td>
+            <td class="w"><i class="fa-regular fa-chess-bishop"></i></td>
+            <td class="h"><i class="fa-regular fa-chess-knight"></i></td>
+            <td class="w"><i class="fa-regular fa-chess-rook"></i></td>
+            <td class="edges">1</td>
+            
+        </tr>
+        <tr>
+            <td class="edges">2</td>
+            <td class="w"><i class="fa-regular fa-chess-pawn"></i></td>
+            <td class="h"><i class="fa-regular fa-chess-pawn"></i></td>
+            <td class="w"><i class="fa-regular fa-chess-pawn"></i></td>
+            <td class="h"><i class="fa-regular fa-chess-pawn"></i></td>
+            <td class="w"><i class="fa-regular fa-chess-pawn"></i></td>
+            <td class="h"><i class="fa-regular fa-chess-pawn"></i></td>
+            <td class="w"><i class="fa-regular fa-chess-pawn"></i></td>
+            <td class="h"><i class="fa-regular fa-chess-pawn"></i></td>
+            <td class="edges">2</td>
+        </tr>
+        <tr>
+            <td class="edges">3</td>
+            <td class="h"></td>
+            <td class="w"></td>
+            <td class="h"></td>
+            <td class="w"></td>
+            <td class="h"></td>
+            <td class="w"></td>
+            <td class="h"></td>
+            <td class="w"></td>
+            <td class="edges">3</td>
+        </tr>
+
+        <tr>
+            <td class="edges">4</td>
+            <td class="w"></td>
+            <td class="h"></td>
+            <td class="w"></td>
+            <td class="h"></td>
+            <td class="w"></td>
+            <td class="h"></td>
+            <td class="w"></td>
+            <td class="h"></td>
+            <td class="edges">4</td>
+        </tr>
+        <tr>
+            <td class="edges">5</td>
+            <td class="h"></td>
+            <td class="w"></td>
+            <td class="h"></td>
+            <td class="w"></td>
+            <td class="h"></td>
+            <td class="w"></td>
+            <td class="h"></td>
+            <td class="w"></td>
+            <td class="edges">5</td>
+        </tr>
+        <tr>
+            <td class="edges">6</td>
+            <td class="w"></td>
+            <td class="h"></td>
+            <td class="w"></td>
+            <td class="h"></td>
+            <td class="w"></td>
+            <td class="h"></td>
+            <td class="w"></td>
+            <td class="h"></td>
+            <td class="edges">6</td>
+        </tr>
+        <tr>
+            <td class="edges">7</td>
+            <td class="h"><i class="fa-solid fa-chess-pawn"></i></td>
+            <td class="w"><i class="fa-solid fa-chess-pawn"></i></td>
+            <td class="h"><i class="fa-solid fa-chess-pawn"></i></td>
+            <td class="w"><i class="fa-solid fa-chess-pawn"></i></td>
+            <td class="h"><i class="fa-solid fa-chess-pawn"></i></td>
+            <td class="w"><i class="fa-solid fa-chess-pawn"></i></td>
+            <td class="h"><i class="fa-solid fa-chess-pawn"></i></td>
+            <td class="w"><i class="fa-solid fa-chess-pawn"></i></td>
+            <td class="edges">7</td>
+        </tr>
+        <tr>
+            <td class="edges">8</td>
+            <td class="w"><i class="fa-solid fa-chess-rook"></i></td>
+            <td class="h"><i class="fa-solid fa-chess-knight"></i></td>
+            <td class="w"><i class="fa-solid fa-chess-bishop"></i></td>
+            <td class="h"><i class="fa-solid fa-chess-king"></i></td>
+            <td class="w"><i class="fa-solid fa-chess-queen"></i></td>
+            <td class="h"><i class="fa-solid fa-chess-bishop"></i></td>
+            <td class="w"><i class="fa-solid fa-chess-knight"></i></td>
+            <td class="h"><i class="fa-solid fa-chess-rook"></i></td>
+            <td class="edges">8</td>
+        </tr>
+        <tr>
+            <td class="corner"></td>
+            <td class="edges">a</td>
+            <td class="edges">b</td>
+            <td class="edges">c</td>
+            <td class="edges">d</td>
+            <td class="edges">e</td>
+            <td class="edges">f</td>
+            <td class="edges">g</td>
+            <td class="edges">h</td>
+            
+            <td class="corner"></td>
+            
+        </tr>
+
+    </table>
+    
+    
+</body>
+</html>              
